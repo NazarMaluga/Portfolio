@@ -7,7 +7,7 @@ import MyFuture from './pages/MyFuture';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
       <Header />
       <Routes>
         <Route path="/about" element={<AboutMe />} />
